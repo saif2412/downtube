@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Metadata Powered by downtube5 -->
+    <!-- Metadata Powered by Tech to Amjad -->
     <title>Youtube Songs mp3/mp4 Downloader</title>
     <meta name="description"content="FREE YouTube Videos Downloader (HD) (4K) (720P) All Formates of youtube Videos ,Youtube Mp3 , Youtube Videos Converter into Mp3
 free video downloader
@@ -36,7 +36,7 @@ youtube video downloader for android
 w3toys/youtube video downloader
 how to download youtube videos in laptop"/>
     <meta property="og:site_name"content="Easy Youtube Mp"/>
-    <!-- / Powered by downtube5 -->
+    <!-- / Powered by Tech to Amjad -->
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"/>
     <link rel="stylesheet"href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <style type="text/css">
@@ -244,7 +244,7 @@ section {
               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
             </span>
             <span class="brand-logo brand-logo-"
-              >Downtube5</span
+              >Tech to Amjad</span
             >
             <span class="description"
                    >
@@ -375,7 +375,7 @@ background-color: #363636;
 					
 				</p>
 
-				<a>Copyright &copy; 2020</a> <a href="https://www.instagram.com/amjad_khan__official" > Powered by downtube5 </a>
+				<a>Copyright &copy; 2020</a> <a href="https://www.instagram.com/amjad_khan__official" > Powered by Tech to Amjad </a>
 				
 			</div>
 
