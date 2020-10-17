@@ -158,7 +158,7 @@
   </head>    
   <body class=" text-center">    
   <div id='hd'>    
-  <img alt='youtube thumbnail generator' src='https://1.bp.blogspot.com/-6iQK-ugxaMA/XzlEKT2IKCI/AAAAAAAAB8w/ch-bNMemZroo07x-raUTXatJH2jQZh1hACLcBGAsYHQ/s1600/aaaaaaa.png' title='High Quality YouTube Video Downloader'/>    
+  <img alt='youtube thumbnail generator' src='#' title='High Quality YouTube Video Downloader'/>    
   <h1>High Quality YouTube Video Downloader</h1>    
   <p>YouTube Video Downloader automatically take "High Quality" Video File from YouTube URL. Paste Your YouTube Video URL (<span>https://www.youtube.com/watch?v=zru82DBCIEw&t=237s</span>) in the below box and Click on "Download" button. Within Second it will generate your YouTube Video Download Button.</p>    
   </div>    
