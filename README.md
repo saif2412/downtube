@@ -1,192 +1,388 @@
-<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>    
+<!DOCTYPE html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
   <head>    
-  <title>YouTube Downloader - Download Youtube videos for free!</title>    
-  <meta content='We offer the fastest way to save YouTube videos in mp3, mp4, or in other range of formats. ✅ It’s the most convenient YouTube video downloader you’ve ever tried!' name='Description'/>    
-  <meta content='index, follow' name='robots'/>    
-  <meta content='2 days' name='revisit-after'/>    
-  <meta content='English' name='language'/>    
-  <meta content='INDIA' name='geo.country'/>    
-  <meta content='BIHAR' name='geo.placename'/>    
-  <meta content='global' name='distribution'/>    
-  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>    
-  <meta content='true' name='MSSmartTagsPreventParsing'/>    
-  <meta content='general' name='rating'/>    
-  <link href='https://techly360.com/create-youtube-video-downloader-tool-in-blogger/' rel='canonical'/>    
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>    
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
-  <style id='page-skin-1' type='text/css'><!--    
-  /*    
-  -----------------------------------------------------------------------------------    
-  This blog was Created & Modify by Techly360    
-  ----------------------------------------------------------------------------------- */    
-  #navbar-iframe {    
-  height:0px;    
-  visibility:hidden;    
-  display: none !important;    
-  }    
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {    
-  margin: 0;    
-  padding: 0;    
-  border: 0;    
-  font-size: 100%;    
-  font: inherit;    
-  vertical-align: baseline;    
-  }    
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    
-  display: block;    
-  }    
-  html {    
-  background:#eeeeee;    
-  text-align:center;    
-  line-height: 1;    
-  font-family: Georgia;    
-  }    
-  ol, ul {    
-  list-style: none;    
-  }    
-  blockquote, q {    
-  quotes: none;    
-  }    
-  blockquote:before, blockquote:after, q:before, q:after {    
-  content: '';    
-  content: none;    
-  }    
-  table {    
-  border-collapse: collapse;    
-  border-spacing: 0;    
-  }    
-  *:focus {    
-  outline: 0;    
-  }    
-  #hd {    
-  width:100%;    
-  height:390px;    
-  background-image: linear-gradient(to right, #0970eb, #008fef, #00a4d8, #00b3b6, #52be9a);    
-  margin:0 0 50px 0;    
-  -moz-box-shadow: inset 0 -4px 10px -5px #000;    
-  -webkit-box-shadow: inset 0 -4px 10px -5px #000;    
-  box-shadow: inset 0 -4px 10px -5px #000;    
-  }    
-  h1 {    
-  font-size:24px;    
-  font-weight:bold;    
-  color:#fff;    
-  text-shadow: 1px 1px 1px #666666;    
-  }    
-  #hd p{    
-  max-width:70%;    
-  margin:20px auto;    
-  padding:10px;    
-  background:#2A78C3;    
-  border: dashed #00C0C7 2px;    
-  font-family:arial;    
-  font-size:17px;    
-  font-weight:bold;    
-  line-height: 1.4;    
-  color:#FFFFFF;    
-  }    
-  #hd p span{    
-  color:#FFFF00;    
-  }    
-  input[type="text"]{    
-  width:400px;    
-  height:70px;    
-  padding:0 0 0 10px;    
-  border: dashed #1a1a1a 2px;    
-  font-family: Georgia;    
-  }    
-  input[type="submit"]{    
-  height:72px;    
-  background: #66bdff;    
-  background-image: -webkit-linear-gradient(top, #66bdff, #0d9eff);    
-  background-image: -moz-linear-gradient(top, #66bdff, #0d9eff);    
-  background-image: -ms-linear-gradient(top, #66bdff, #0d9eff);    
-  background-image: -o-linear-gradient(top, #66bdff, #0d9eff);    
-  background-image: linear-gradient(to bottom, #66bdff, #0d9eff);    
-  border: dashed #1a1a1a 1px;    
-  -webkit-border-radius: 0;    
-  -moz-border-radius: 0;    
-  border-radius: 0px;    
-  margin:0 0 0 -2px;    
-  cursor: pointer;    
-  font-family: Georgia;    
-  text-decoration: none;    
-  color: #fff;    
-  }    
-  input[type="submit"]:hover {    
-  background: #f72525;    
-  background-image: -webkit-linear-gradient(top, #f72525, #b52222);    
-  background-image: -moz-linear-gradient(top, #f72525, #b52222);    
-  background-image: -ms-linear-gradient(top, #f72525, #b52222);    
-  background-image: -o-linear-gradient(top, #f72525, #b52222);    
-  background-image: linear-gradient(to bottom, #f72525, #b52222);    
-  }    
-  h2{    
-  margin:20px;    
-  font-size:14px;    
-  }    
-  h3{    
-  color:#A9A6A6;    
-  margin:10px auto;    
-  }    
-  #hidden_div img{    
-  margin:5px;    
-  border: solid #C8312B 3px;    
-  }    
-  #sorry{    
-  width:200px;    
-  height:3opx;    
-  margin:10px auto;    
-  padding:10px;    
-  background:#BA2020;    
-  border: dashed #7E1313 2px;    
-  color:#fff;    
-  }    
-  #iam{    
-  margin:50px auto;    
-  color:#1a1a1a;    
-  }    
-  .footer-copy {    
-   margin: 50px auto;    
-   color: #c2c2c2;    
-  }    
-  -->    
-  .adsbox{padding:2em;box-shadow:0 5px 15px rgba(0,0,0,.16);border-radius:5px;margin-top:1em;background:#fff;text-align:left}    
-  </style>    
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>    
-  </head>    
-  <body class=" text-center">    
-  <div id='hd'>    
-  <img alt='youtube thumbnail generator' src='#' title='High Quality YouTube Video Downloader'/>    
-  <h1>High Quality YouTube Video Downloader</h1>    
-  <p>YouTube Video Downloader automatically take "High Quality" Video File from YouTube URL. Paste Your YouTube Video URL (<span>https://www.youtube.com/watch?v=zru82DBCIEw&t=237s</span>) in the below box and Click on "Download" button. Within Second it will generate your YouTube Video Download Button.</p>    
-  </div>    
-  <div class="addthis_inline_share_toolbox centersocials"></div>    
-  <div class="adsbox container">    
-   Place Ad Code 1     
-    </div>    
-   </br>    
-  <iframe src="https://mp3downy.com/mp3-converter?apikey=89eb7d92-3622-45d7-86a0-15adb53d61f1&color=17a2b8&bg=ffffff" style="width:100%;min-height:250px;height:auto;" ></iframe>   
-  <div class="adsbox container">    
-   Place Ad Code 2     
-    </div>    
-  <div id='hidden_div' style='display:none'>    
-  <div id='thumbnails'>    
-  </div>    
-  </div>    
-  <!-- Add this Sticky Sidebar and Inline Share - By Technical Arp Login to Addthis and Change as per your Requirement-->    
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c98f50a092025d4"></script>    
-  <footer style="margin-top:30px; margin-bottom:20px;">    
-  <div class='container text-center'>    
-  <div class='footer-copy'>    
-  <p>© Design by Techly360.com <script>document.write(new Date().getFullYear())</script>    
-  <span>• </span>    
-  </br>    
-  </br>    
-  </div>    
-  </div>    
-  </div>    
-  </footer>    
-  </body>    
-  </html>   
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Metadata Powered by Tech to Amjad -->
+    <title>Youtube Songs mp3/mp4 Downloader</title>
+    <meta name="description"content="FREE YouTube Videos Downloader (HD) (4K) (720P) All Formates of youtube Videos ,Youtube Mp3 , Youtube Videos Converter into Mp3
+free video downloader
+4k video downloader
+youtube video downloader for android
+w3toys/youtube video downloader
+how to download youtube videos in laptop"/>
+    <meta name="robots" content="noodp" />
+    <meta name="keywords"content="FREE YouTube Videos Downloader (HD) (4K) (720P) All Formates of youtube Videos ,Youtube Mp3 , Youtube Videos Converter into Mp3
+free video downloader
+4k video downloader
+youtube video downloader for android
+w3toys/youtube video downloader
+how to download youtube videos in laptop"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Easy Youtube Mp" />
+    <meta
+      property="og:description"
+      content="FREE YouTube Videos Downloader (HD) (4K) (720P) All Formates of youtube Videos ,Youtube Mp3 , Youtube Videos Converter into Mp3
+free video downloader
+4k video downloader
+youtube video downloader for android
+w3toys/youtube video downloader
+how to download youtube videos in laptop"/>
+    <meta property="og:site_name"content="Easy Youtube Mp"/>
+    <!-- / Powered by Tech to Amjad -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"/>
+    <link rel="stylesheet"href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <style type="text/css">
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      main {
+        flex: 1 0 auto;
+      }
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+  height: 30vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+      .max-lines {
+        float: right;
+        font-size: 12px;
+        padding-bottom: 16px;
+      }
+      .support {
+        text-align: center;
+        color: #9e9e9e;
+      }
+      .valign-top {
+        vertical-align: top;
+      }
+      /* Nav panel */
+      @media only screen and (max-width: 992px) {
+        nav .description {
+          width: 100%;
+          top: -56px !important;
+          display: block;
+          text-align: center;
+        }
+      }
+      @media only screen and (max-width: 601px) {
+        nav .nav-wrapper {
+          margin-top: 5px;
+          width: 100%;
+        }
+        nav .description {
+          top: -47px !important;
+        }
+        #data li {
+          margin-top: 5px;
+        }
+      }
+      nav {
+        box-shadow: none;
+        -moz-box-shadow: none;
+      }
+      nav .brand-logo {
+        color: black;
+        font-weight: 500;
+        display: inline-table;
+        top: -10px;
+        float: left;
+      }
+      nav .brand-logo-small {
+        font-size: 1.4rem;
+      }
+      nav .brand-logo-small #header-logo {
+        position: relative;
+        top: 3px;
+        width: 22px;
+        height: 22px;
+      }
+      nav .brand-logo span {
+        font-weight: 100;
+      }
+      nav .description {
+        color: #757575;
+        top: 12px;
+        position: relative;
+      }
+      nav ul a {
+        color: black;
+      }
+      nav i {
+        color: #039be5;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <center>
+        <p>
+          You are using an <strong>outdated</strong> browser. Please
+          <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+          your experience.
+        </p>
+      </center>
+    <![endif]-->
+    <div class="progress blue lighten-3 hide" id="progress">
+      <div class="indeterminate blue"></div>
+    </div>
+    <header>
+      <nav class="transparent black-text">
+        <div class="nav-wrapper container">
+          <a href="#" class="">
+            <span class="fa-stack fa-lg valign-top">
+         <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="brand-logo brand-logo-"
+              >Tech to Amjad</span
+            >
+            <span class="description"
+                   >
+            <span class="description"
+              >Best Free Any Video Downloader. easily Just 1 Click any Youtube Full HD Video & MP3 Download</span
+            >
+          </a>
+          <meta itemprop="url" content="apni#" />
+          <meta itemprop="name" content="Direct Link Generator" />
+          <div
+            id="header-mobile-links"
+            class="hide row center hide-on-large-only"
+          >
+            <div class="col s12">
+              <a href="#">About</a>
+            </div>
+            <div class="col s12 spacer"></div>
+          </div>
+          <ul class="hide right hide-on-med-and-down">
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+<!-- HTML Codes by QHMit.com -->
+<!DOCTYPE html>
+<title>Text Example</title>
+<style>
+div.container {
+background-color: #ffffff;
+}
+div.container p {
+text-align: center;
+font-family: Georgia;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-transform: none;
+color: #ffffff;
+background-color: #363636;
+}
+</style>
+
+<div class="container">
+<p>Copy Your Video Link & Paste Here</p>
+</div>
+
+<center>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;">
+<b>&gt;Ads&lt;</b></div>
+</div>
+</center>    
+
+
+
+    </header>
+    <iframe src="https://mp3downy.com/mp3-converter?apikey=89eb7d92-3622-45d7-86a0-15adb53d61f1&color=17a2b8&bg=ffffff" style="width:100%;min-height:250px;height:auto;" ></iframe>
+
+<center>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;">
+<b>&gt;Ads&lt;</b></div>
+</div>
+</center>
+
+
+<!-- HTML Codes by QHMit.com -->
+<!DOCTYPE html>
+<title>Text Example</title>
+<style>
+div.container {
+background-color: #ffffff;
+}
+div.container p {
+text-align: center;
+font-family: Georgia;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-transform: none;
+color: #ffffff;
+background-color: #363636;
+}
+</style>
+
+<div class="container">
+<p><span
+        >If you are experiencing any issues please contact
+        
+<a href="/">home</a></span>
+    </div></p></p>
+</div>
+
+
+<center>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div style="text-align: center;">
+<b>&gt;Ads&lt;</b></div>
+</div>
+</center>
+
+	<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.instagram.com/amjad_khan__official/"><i class="fa fa-instagram"></i></a>
+                      </div>
+
+			<div class="footer-left">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+
+
+				<p class="footer-links">
+					<a class="link-1" href="/">Home</a>
+
+					<a href="#">About</a>
+
+					<a href="#">Contact</a>
+
+					<a href="#">Terms and Conditions</a>
+
+					<a href="#">Privacy Policy </a>
+
+					
+				</p>
+
+				<a>Copyright &copy; 2020</a> <a href="https://www.instagram.com/amjad_khan__official" > Powered by Tech to Amjad </a>
+				
+			</div>
+
+		</footer>
+
+
+</div>
+
+
+  </body>
